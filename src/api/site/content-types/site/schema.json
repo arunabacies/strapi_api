@@ -1,0 +1,72 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sites",
+  "info": {
+    "singularName": "site",
+    "pluralName": "sites",
+    "displayName": "site"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "domain": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "dns": {
+      "type": "string"
+    },
+    "we_acquired_domain": {
+      "type": "boolean"
+    },
+    "other_info": {
+      "type": "json"
+    },
+    "is_active": {
+      "type": "boolean"
+    },
+    "templates": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::template.template",
+      "mappedBy": "site"
+    },
+    "site_setting": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::site-setting.site-setting",
+      "inversedBy": "site"
+    },
+    "web_pages": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::web-page.web-page",
+      "mappedBy": "site"
+    },
+    "site_menus": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::site-menu.site-menu",
+      "mappedBy": "site"
+    },
+    "categories": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::category.category",
+      "mappedBy": "site"
+    },
+    "posts": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::post.post",
+      "mappedBy": "site"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "templates",
+  "info": {
+    "singularName": "template",
+    "pluralName": "templates",
+    "displayName": "template"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "site": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::site.site",
+      "inversedBy": "templates"
+    },
+    "name": {
+      "type": "string"
+    },
+    "details": {
+      "type": "text"
+    },
+    "is_active": {
+      "type": "boolean"
+    }
+  }
+}

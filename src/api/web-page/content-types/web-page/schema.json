@@ -1,0 +1,45 @@
+{
+  "kind": "collectionType",
+  "collectionName": "web_pages",
+  "info": {
+    "singularName": "web-page",
+    "pluralName": "web-pages",
+    "displayName": "web_page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "site": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::site.site",
+      "inversedBy": "web_pages"
+    },
+    "title": {
+      "type": "string"
+    },
+    "page_template_name": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "content": {
+      "type": "text"
+    },
+    "other_info": {
+      "type": "json"
+    },
+    "is_active": {
+      "type": "boolean"
+    },
+    "site_menus": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::site-menu.site-menu",
+      "mappedBy": "web_page"
+    }
+  }
+}

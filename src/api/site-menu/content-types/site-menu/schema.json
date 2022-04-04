@@ -1,0 +1,44 @@
+{
+  "kind": "collectionType",
+  "collectionName": "site_menus",
+  "info": {
+    "singularName": "site-menu",
+    "pluralName": "site-menus",
+    "displayName": "site_menu",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "site": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::site.site",
+      "inversedBy": "site_menus"
+    },
+    "web_page": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::web-page.web-page",
+      "inversedBy": "site_menus"
+    },
+    "type": {
+      "type": "integer",
+      "default": 1
+    },
+    "parent_id": {
+      "type": "integer"
+    },
+    "name": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "is_active": {
+      "type": "boolean"
+    }
+  }
+}
