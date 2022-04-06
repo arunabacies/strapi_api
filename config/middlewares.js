@@ -1,6 +1,3 @@
-const BUCKET = process.env.AWS_BUCKET_NAME;
-const REGION = process.env.AWS_REGION;
-const BUCKET_URL = `https://${BUCKET}.s3.${AWS_REGION}.amazonaws.com`;
 module.exports = [
   'strapi::errors',
   'strapi::security',
@@ -19,8 +16,8 @@ module.exports = [
        useDefaults: true,
        directives: {
          'connect-src': ["'self'", 'https:'],
-         'img-src': ["'self'", 'data:', 'blob:', BUCKET_URL],
-         'media-src': ["'self'", 'data:', 'blob:', BUCKET_URL],
+         'img-src': ["'self'", 'data:', 'blob:', 'https://strapi-demo-abacies.s3.us-east-1.amazonaws.com'],
+         'media-src': ["'self'", 'data:', 'blob:', 'https://strapi-demo-abacies.s3.us-east-1.amazonaws.com'],
          upgradeInsecureRequests: null,
        },
      },
