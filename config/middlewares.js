@@ -1,5 +1,5 @@
-const BUCKET = env.AWS_BUCKET_NAME;
-const REGION = env.AWS_REGION;
+const BUCKET = process.env.AWS_BUCKET_NAME;
+const REGION = process.env.AWS_REGION;
 const BUCKET_URL = `https://${BUCKET}.s3.${AWS_REGION}.amazonaws.com`;
 module.exports = [
   'strapi::errors',
