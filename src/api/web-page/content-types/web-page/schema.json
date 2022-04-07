@@ -47,6 +47,11 @@
       "relation": "oneToOne",
       "target": "api::page-template.page-template",
       "inversedBy": "web_page"
+    },
+    "Sliders": {
+      "type": "component",
+      "repeatable": true,
+      "component": "home.banners"
     }
   }
 }

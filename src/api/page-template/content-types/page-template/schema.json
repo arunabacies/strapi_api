@@ -24,7 +24,7 @@
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::web-page.web-page",
-      "inversedBy": "page_template"
+      "mappedBy": "page_template"
     }
   }
 }
