@@ -40,14 +40,18 @@
       "mappedBy": "post"
     },
     "feature_image": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": true
+      ]
+    },
+    "post_detail": {
+      "type": "richtext"
     }
   }
 }
