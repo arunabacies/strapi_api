@@ -4,7 +4,8 @@
   "info": {
     "singularName": "web-page",
     "pluralName": "web-pages",
-    "displayName": "web_page"
+    "displayName": "web_page",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -18,9 +19,6 @@
       "inversedBy": "web_pages"
     },
     "title": {
-      "type": "string"
-    },
-    "page_template_name": {
       "type": "string"
     },
     "url": {
@@ -40,6 +38,15 @@
       "relation": "oneToMany",
       "target": "api::site-menu.site-menu",
       "mappedBy": "web_page"
+    },
+    "page_details": {
+      "type": "richtext"
+    },
+    "page_template": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::page-template.page-template",
+      "inversedBy": "web_page"
     }
   }
 }

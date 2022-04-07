@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "page_templates",
+  "info": {
+    "singularName": "page-template",
+    "pluralName": "page-templates",
+    "displayName": "Page_Template"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "site": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::site.site",
+      "inversedBy": "page_templates"
+    },
+    "web_page": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::web-page.web-page",
+      "inversedBy": "page_template"
+    }
+  }
+}

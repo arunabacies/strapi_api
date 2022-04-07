@@ -67,6 +67,12 @@
       "relation": "oneToMany",
       "target": "api::post.post",
       "mappedBy": "site"
+    },
+    "page_templates": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::page-template.page-template",
+      "mappedBy": "site"
     }
   }
 }
