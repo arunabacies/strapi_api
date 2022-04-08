@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_home_text_fields",
+  "info": {
+    "displayName": "text-field",
+    "icon": "bold"
+  },
+  "options": {},
+  "attributes": {
+    "data": {
+      "type": "string"
+    }
+  }
+}

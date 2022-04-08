@@ -4,7 +4,8 @@
   "info": {
     "singularName": "site-setting",
     "pluralName": "site-settings",
-    "displayName": "site_setting"
+    "displayName": "site_setting",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -18,30 +19,70 @@
       "inversedBy": "site_setting"
     },
     "logo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "favicon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "other_info": {
       "type": "json"
     },
     "is_active": {
       "type": "boolean"
+    },
+    "secondary_logo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "contact": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "google_map_api_key": {
+      "type": "string"
+    },
+    "google_map_location": {
+      "type": "string"
+    },
+    "color_settings": {
+      "displayName": "color-settings",
+      "type": "component",
+      "repeatable": false,
+      "component": "home.color-settings"
+    },
+    "footer_settings": {
+      "displayName": "footer_settings",
+      "type": "component",
+      "repeatable": true,
+      "component": "home.footer-settings"
+    },
+    "footer_copyright": {
+      "type": "text"
     }
   }
 }

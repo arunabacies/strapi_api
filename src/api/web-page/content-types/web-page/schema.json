@@ -52,6 +52,16 @@
       "type": "component",
       "repeatable": true,
       "component": "home.banners"
+    },
+    "featured_posts": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::post.post"
+    },
+    "banners": {
+      "type": "component",
+      "repeatable": true,
+      "component": "home.page-banners"
     }
   }
 }

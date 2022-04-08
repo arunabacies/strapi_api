@@ -22,12 +22,6 @@
     },
     "is_active": {
       "type": "boolean"
-    },
-    "post_categories": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::post-category.post-category",
-      "mappedBy": "category"
     }
   }
 }

@@ -42,7 +42,7 @@
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::site-setting.site-setting",
-      "inversedBy": "site"
+      "mappedBy": "site"
     },
     "web_pages": {
       "type": "relation",

@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_home_page_banners",
+  "info": {
+    "displayName": "page_banners",
+    "icon": "atom"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "position": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

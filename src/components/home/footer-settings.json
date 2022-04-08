@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_home_footer_settings",
+  "info": {
+    "displayName": "footer_settings",
+    "icon": "archive"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    }
+  }
+}

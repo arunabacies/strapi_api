@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_home_color_settings",
+  "info": {
+    "displayName": "color-settings",
+    "icon": "audio-description"
+  },
+  "options": {},
+  "attributes": {
+    "primary": {
+      "type": "string"
+    },
+    "secondary": {
+      "type": "string"
+    },
+    "tertiary": {
+      "type": "string"
+    },
+    "footer_bg": {
+      "type": "string"
+    },
+    "body_bg": {
+      "type": "string"
+    }
+  }
+}
