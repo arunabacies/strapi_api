@@ -25,6 +25,12 @@
       "relation": "oneToOne",
       "target": "api::web-page.web-page",
       "mappedBy": "page_template"
+    },
+    "template": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::template.template",
+      "inversedBy": "page_templates"
     }
   }
 }

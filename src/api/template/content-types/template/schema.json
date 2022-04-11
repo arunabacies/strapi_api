@@ -4,18 +4,19 @@
   "info": {
     "singularName": "template",
     "pluralName": "templates",
-    "displayName": "template"
+    "displayName": "template",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "site": {
+    "sites": {
       "type": "relation",
-      "relation": "manyToOne",
+      "relation": "oneToMany",
       "target": "api::site.site",
-      "inversedBy": "templates"
+      "mappedBy": "template"
     },
     "name": {
       "type": "string"
@@ -25,6 +26,12 @@
     },
     "is_active": {
       "type": "boolean"
+    },
+    "page_templates": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::page-template.page-template",
+      "mappedBy": "template"
     }
   }
 }

@@ -39,6 +39,11 @@
     },
     "is_active": {
       "type": "boolean"
+    },
+    "page_template": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::page-template.page-template"
     }
   }
 }

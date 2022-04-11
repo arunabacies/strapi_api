@@ -32,12 +32,6 @@
     "is_active": {
       "type": "boolean"
     },
-    "templates": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::template.template",
-      "mappedBy": "site"
-    },
     "site_setting": {
       "type": "relation",
       "relation": "oneToOne",
@@ -73,6 +67,12 @@
       "relation": "oneToMany",
       "target": "api::page-template.page-template",
       "mappedBy": "site"
+    },
+    "template": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::template.template",
+      "inversedBy": "sites"
     }
   }
 }
