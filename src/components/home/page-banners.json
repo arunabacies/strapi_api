@@ -2,19 +2,21 @@
   "collectionName": "components_home_page_banners",
   "info": {
     "displayName": "page_banners",
-    "icon": "atom"
+    "icon": "atom",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "content": {
       "type": "richtext"
@@ -23,6 +25,9 @@
       "type": "string"
     },
     "link": {
+      "type": "string"
+    },
+    "video_link": {
       "type": "string"
     }
   }

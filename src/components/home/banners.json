@@ -2,7 +2,8 @@
   "collectionName": "components_home_banners",
   "info": {
     "displayName": "Banners",
-    "icon": "archway"
+    "icon": "archway",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -10,14 +11,21 @@
       "type": "richtext"
     },
     "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
+    },
+    "left_content": {
+      "type": "richtext"
+    },
+    "right_content": {
+      "type": "richtext"
     }
   }
 }
