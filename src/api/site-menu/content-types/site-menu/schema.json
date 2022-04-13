@@ -44,6 +44,10 @@
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::page-template.page-template"
+    },
+    "has_children": {
+      "type": "boolean",
+      "default": false
     }
   }
 }
