@@ -83,6 +83,12 @@
     },
     "footer_copyright": {
       "type": "text"
+    },
+    "address": {
+      "type": "text"
+    },
+    "location": {
+      "type": "string"
     }
   }
 }
