@@ -48,6 +48,18 @@
     "has_children": {
       "type": "boolean",
       "default": false
+    },
+    "parent_menu": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::site-menu.site-menu",
+      "inversedBy": "child_menus"
+    },
+    "child_menus": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::site-menu.site-menu",
+      "mappedBy": "parent_menu"
     }
   }
 }
