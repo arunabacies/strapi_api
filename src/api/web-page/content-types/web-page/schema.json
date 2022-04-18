@@ -74,6 +74,12 @@
     },
     "contact": {
       "type": "string"
+    },
+    "is_banners": {
+      "type": "boolean"
+    },
+    "is_sliders": {
+      "type": "boolean"
     }
   }
 }

@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_home_footer_menus",
+  "info": {
+    "displayName": "footer_menu",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "site_menus": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::site-menu.site-menu"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

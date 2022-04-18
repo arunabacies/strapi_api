@@ -75,10 +75,10 @@
       "repeatable": false,
       "component": "home.color-settings"
     },
-    "footer_settings": {
+    "footer_content": {
       "displayName": "footer_settings",
       "type": "component",
-      "repeatable": true,
+      "repeatable": false,
       "component": "home.footer-settings"
     },
     "footer_copyright": {
@@ -89,6 +89,12 @@
     },
     "privacy_policy": {
       "type": "string"
+    },
+    "footer_menus": {
+      "displayName": "footer_menu",
+      "type": "component",
+      "repeatable": true,
+      "component": "home.footer-menu"
     }
   }
 }
