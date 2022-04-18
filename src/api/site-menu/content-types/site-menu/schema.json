@@ -24,13 +24,6 @@
       "target": "api::web-page.web-page",
       "inversedBy": "site_menus"
     },
-    "type": {
-      "type": "integer",
-      "default": 1
-    },
-    "parent_id": {
-      "type": "integer"
-    },
     "name": {
       "type": "string"
     },
@@ -60,6 +53,14 @@
       "relation": "oneToMany",
       "target": "api::site-menu.site-menu",
       "mappedBy": "parent_menu"
+    },
+    "menu_type": {
+      "type": "enumeration",
+      "enum": [
+        "header",
+        "footer"
+      ],
+      "default": "header"
     }
   }
 }
