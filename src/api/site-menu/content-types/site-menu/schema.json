@@ -58,7 +58,8 @@
       "type": "enumeration",
       "enum": [
         "header",
-        "footer"
+        "footer",
+        "header & footer"
       ],
       "default": "header"
     }

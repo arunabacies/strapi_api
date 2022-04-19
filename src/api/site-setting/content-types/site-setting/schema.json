@@ -95,6 +95,27 @@
       "type": "component",
       "repeatable": true,
       "component": "home.footer-menu"
+    },
+    "social_media_links": {
+      "displayName": "social_media_links",
+      "type": "component",
+      "repeatable": false,
+      "component": "home.social-media-links"
+    },
+    "title": {
+      "type": "string"
+    },
+    "facebook": {
+      "type": "string"
+    },
+    "twitter": {
+      "type": "string"
+    },
+    "instagram": {
+      "type": "string"
+    },
+    "youtube": {
+      "type": "string"
     }
   }
 }
