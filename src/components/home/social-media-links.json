@@ -2,8 +2,25 @@
   "collectionName": "components_home_social_media_links",
   "info": {
     "displayName": "social_media_links",
-    "icon": "arrow-circle-right"
+    "icon": "arrow-circle-right",
+    "description": ""
   },
   "options": {},
-  "attributes": {}
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "facebook": {
+      "type": "string"
+    },
+    "instagram": {
+      "type": "string"
+    },
+    "twitter": {
+      "type": "string"
+    },
+    "youtube": {
+      "type": "string"
+    }
+  }
 }

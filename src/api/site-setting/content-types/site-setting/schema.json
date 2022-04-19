@@ -101,21 +101,6 @@
       "type": "component",
       "repeatable": false,
       "component": "home.social-media-links"
-    },
-    "title": {
-      "type": "string"
-    },
-    "facebook": {
-      "type": "string"
-    },
-    "twitter": {
-      "type": "string"
-    },
-    "instagram": {
-      "type": "string"
-    },
-    "youtube": {
-      "type": "string"
     }
   }
 }
