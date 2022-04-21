@@ -60,7 +60,7 @@
     },
     "banners": {
       "type": "component",
-      "repeatable": true,
+      "repeatable": false,
       "component": "home.page-banners"
     },
     "location": {
