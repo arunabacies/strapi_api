@@ -26,6 +26,11 @@
     },
     "right_content": {
       "type": "richtext"
+    },
+    "featured_posts": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::post.post"
     }
   }
 }
