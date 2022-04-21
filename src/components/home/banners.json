@@ -7,9 +7,6 @@
   },
   "options": {},
   "attributes": {
-    "content": {
-      "type": "richtext"
-    },
     "image": {
       "type": "media",
       "multiple": false,
@@ -20,12 +17,6 @@
         "videos",
         "audios"
       ]
-    },
-    "left_content": {
-      "type": "richtext"
-    },
-    "right_content": {
-      "type": "richtext"
     },
     "featured_posts": {
       "type": "relation",
