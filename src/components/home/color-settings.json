@@ -2,7 +2,8 @@
   "collectionName": "components_home_color_settings",
   "info": {
     "displayName": "color-settings",
-    "icon": "audio-description"
+    "icon": "audio-description",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -19,6 +20,18 @@
       "type": "string"
     },
     "body_bg": {
+      "type": "string"
+    },
+    "primary_text": {
+      "type": "string"
+    },
+    "secondary_text": {
+      "type": "string"
+    },
+    "highlight_text": {
+      "type": "string"
+    },
+    "heading_colour": {
       "type": "string"
     }
   }

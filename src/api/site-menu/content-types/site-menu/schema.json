@@ -38,10 +38,6 @@
       "relation": "oneToOne",
       "target": "api::page-template.page-template"
     },
-    "has_children": {
-      "type": "boolean",
-      "default": false
-    },
     "parent_menu": {
       "type": "relation",
       "relation": "manyToOne",

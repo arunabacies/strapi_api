@@ -24,12 +24,6 @@
     "url": {
       "type": "string"
     },
-    "content": {
-      "type": "text"
-    },
-    "other_info": {
-      "type": "json"
-    },
     "is_active": {
       "type": "boolean"
     },
@@ -58,7 +52,7 @@
       "relation": "oneToMany",
       "target": "api::post.post"
     },
-    "banners": {
+    "banner": {
       "type": "component",
       "repeatable": false,
       "component": "home.page-banners"
@@ -72,7 +66,7 @@
     "abn": {
       "type": "string"
     },
-    "contact": {
+    "phone": {
       "type": "string"
     },
     "is_banners": {

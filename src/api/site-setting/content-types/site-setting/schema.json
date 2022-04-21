@@ -40,9 +40,6 @@
         "audios"
       ]
     },
-    "other_info": {
-      "type": "json"
-    },
     "is_active": {
       "type": "boolean"
     },
@@ -101,6 +98,9 @@
       "type": "component",
       "repeatable": false,
       "component": "home.social-media-links"
+    },
+    "title": {
+      "type": "string"
     }
   }
 }

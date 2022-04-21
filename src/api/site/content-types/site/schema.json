@@ -4,7 +4,8 @@
   "info": {
     "singularName": "site",
     "pluralName": "sites",
-    "displayName": "site"
+    "displayName": "site",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -25,9 +26,6 @@
     },
     "we_acquired_domain": {
       "type": "boolean"
-    },
-    "other_info": {
-      "type": "json"
     },
     "is_active": {
       "type": "boolean"

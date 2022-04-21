@@ -21,7 +21,7 @@
     "title": {
       "type": "string"
     },
-    "content": {
+    "short_content": {
       "type": "text"
     },
     "url": {
