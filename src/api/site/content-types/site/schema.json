@@ -48,12 +48,6 @@
       "target": "api::site-menu.site-menu",
       "mappedBy": "site"
     },
-    "categories": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::category.category",
-      "mappedBy": "site"
-    },
     "posts": {
       "type": "relation",
       "relation": "oneToMany",
