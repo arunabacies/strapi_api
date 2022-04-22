@@ -48,12 +48,6 @@
     "footer_copyright": {
       "type": "text"
     },
-    "terms_and_conditions": {
-      "type": "string"
-    },
-    "privacy_policy": {
-      "type": "string"
-    },
     "footer_menus": {
       "displayName": "footer_menu",
       "type": "component",
@@ -77,6 +71,16 @@
     },
     "secondary_logo": {
       "type": "string"
+    },
+    "terms_and_conditions": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::web-page.web-page"
+    },
+    "privacy_policy": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::web-page.web-page"
     }
   }
 }
