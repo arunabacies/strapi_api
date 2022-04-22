@@ -7,21 +7,13 @@
   },
   "options": {},
   "attributes": {
-    "image": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
-    },
     "featured_posts": {
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::post.post"
+    },
+    "image": {
+      "type": "string"
     }
   }
 }

@@ -7,17 +7,6 @@
   },
   "options": {},
   "attributes": {
-    "image": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
-    },
     "content": {
       "type": "richtext"
     },
@@ -28,6 +17,9 @@
       "type": "string"
     },
     "video_link": {
+      "type": "string"
+    },
+    "image": {
       "type": "string"
     }
   }
