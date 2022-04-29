@@ -81,6 +81,9 @@
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::web-page.web-page"
+    },
+    "header_icon": {
+      "type": "string"
     }
   }
 }

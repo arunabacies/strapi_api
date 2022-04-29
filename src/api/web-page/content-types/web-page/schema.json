@@ -74,6 +74,9 @@
     },
     "is_sliders": {
       "type": "boolean"
+    },
+    "featured_posts_title": {
+      "type": "string"
     }
   }
 }
