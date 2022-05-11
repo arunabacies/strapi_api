@@ -65,6 +65,17 @@
       "relation": "manyToOne",
       "target": "api::template.template",
       "inversedBy": "sites"
+    },
+    "owner_is": {
+      "type": "email"
+    },
+    "cf_distribution_id": {
+      "type": "string",
+      "maxLength": 50
+    },
+    "cf_domain": {
+      "type": "string",
+      "maxLength": 120
     }
   }
 }
