@@ -18,9 +18,6 @@
     "domain": {
       "type": "string"
     },
-    "url": {
-      "type": "string"
-    },
     "is_active": {
       "type": "boolean"
     },
