@@ -21,9 +21,6 @@
     "url": {
       "type": "string"
     },
-    "we_acquired_domain": {
-      "type": "boolean"
-    },
     "is_active": {
       "type": "boolean"
     },
